@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app works!';
-  body = 'My First Agnular2 App';
+  title: string = 'app works!';
+  body: string = 'My First Agnular2 App';
 }
