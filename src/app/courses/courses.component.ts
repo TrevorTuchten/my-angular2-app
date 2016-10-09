@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
 export class CoursesComponent {
 
   title: string = 'Courses';
-
+  courses: string[] = ['course1', 'course2', 'course3'];
 }
